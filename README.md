@@ -1,8 +1,17 @@
+<!--
+ * @Author: Cao Shixin
+ * @Date: 2021-06-25 10:02:05
+ * @LastEditors: Cao Shixin
+ * @LastEditTime: 2021-06-25 10:18:01
+ * @Description: 
+-->
 # flutter_hotfix_csx
 
-A new Flutter package project.
+support for local resource hot update.
 
 ## Getting Started
+
+
 
 This project is a starting point for a Dart
 [package](https://flutter.dev/developing-packages/),

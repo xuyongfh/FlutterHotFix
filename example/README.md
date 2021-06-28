@@ -1,6 +1,6 @@
-# example
+# flutter_hot_fix_csx_example
 
-A new Flutter project.
+Demonstrates how to use the flutter_hot_fix_csx plugin.
 
 ## Getting Started
 
