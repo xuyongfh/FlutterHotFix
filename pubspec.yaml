@@ -11,27 +11,25 @@ dependencies:
   flutter:
     sdk: flutter
   crypto: ^3.0.1
-  convert: ^3.0.0
-  shared_preferences: ^2.0.6
-  archive: ^3.1.2
-  flutter_downloader: ^1.6.0
-  diff_match_patch: ^0.4.1
-  dio: ^4.0.0
-  permission_handler: ^8.1.2
+  convert: ^3.0.1
+  shared_preferences: ^2.0.12
+  archive: ^3.1.8
+  dio: ^4.0.4
+  permission_handler: ^8.3.0
+  path_provider: ^2.0.8
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  json_serializable: ^6.1.3
+  build_runner: ^2.1.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-  # This section identifies this Flutter project as a plugin project.
-  # The 'pluginClass' and Android 'package' identifiers should not ordinarily
-  # be modified. They are used by the tooling to maintain consistency when
-  # adding or updating assets for this project.
   plugin:
     platforms:
       android:

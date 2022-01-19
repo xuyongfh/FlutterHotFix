@@ -1,6 +1,13 @@
+/*
+ * @Author: Cao Shixin
+ * @Date: 2021-06-28 17:15:16
+ * @LastEditors: Cao Shixin
+ * @LastEditTime: 2021-06-29 15:46:23
+ * @Description: 
+ */
 import 'package:flutter/services.dart';
+import 'package:flutter_hot_fix_csx/channel/hotfix_csx.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_hot_fix_csx/flutter_hot_fix_csx.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('flutter_hot_fix_csx');

@@ -2,7 +2,7 @@
  * @Author: Cao Shixin
  * @Date: 2021-06-28 11:47:21
  * @LastEditors: Cao Shixin
- * @LastEditTime: 2021-06-28 11:54:36
+ * @LastEditTime: 2021-06-29 17:53:59
  * @Description: 
  */
 
@@ -24,13 +24,13 @@ enum HotFixErrorType {
  * 当前可用资源
  */
 enum HotFixValidResource {
-  NOValidResource,
+  None,
 //基准包资源
-  ValidResourceBase,
+  Base,
 //更新包(交替使用)
-  ValidResourceFix,
+  Fix,
 //更新包（交替使用） 考虑到更新包也会被更新，所以这里建立一个临时情况
-  ValidResourceFixTmp,
+  FixTmp,
 }
 
 /*

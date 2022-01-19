@@ -2,7 +2,7 @@
  * @Author: Cao Shixin
  * @Date: 2021-06-28 10:25:42
  * @LastEditors: Cao Shixin
- * @LastEditTime: 2021-06-28 10:36:18
+ * @LastEditTime: 2021-06-29 15:39:16
  * @Description: 
  */
 
@@ -23,30 +23,23 @@ class Constant {
 //pragma mark  *********** 通用路径文件名称 **********
   static const hotfixBaseResourceDirName = 'base/www'; //基本解压w文件的跟路径
   static const hotfixFixResourceDirName = 'fix/www'; //合并一次热更新的跟路径
-  static const hotfixFixTmpResourceDirName =
-      'fixtmp/www'; //再次热更新合并的跟路径
+  static const hotfixFixTmpResourceDirName = 'fixtmp/www'; //再次热更新合并的跟路径
   static const hotfixFixTempResourceDirName =
       'fixtemp/www'; //做内容解压的时候临时存储旧的文件，防止清除之后没解压成功导致下次加载问题。
   static const hotfixConfigDirName = 'config'; //配置资源的路径
   static const hotfixDownloadDirName = 'download'; //下载资源目录名
 
   static const hotfixDiffDirName = 'diff'; //下载资源临时目录名
-  static const hotfixResourceListFile = 'resource-bundle.manifest'; //清单文件名
+  static const hotfixResourceListFile = 'resource-manifest.json'; //清单文件名
   static const hotfixConfigJsonFile = 'config.json'; //本地热更新的资源文件
   static const hotfixNetWorkJsonFile =
-      'networkConfig.json'; //远端热更新的ios-update-manifest文件本地存储名称
+      'manifest.json'; //远端热更新的ios-update-manifest文件本地存储名称
   static const hotfixTotalResourceFile = 'total.zip'; //全量包
   static const hotfixMakeupResourceFile = 'makeup.zip'; //合并增量包生成的压缩包
   static const hotfixLatestResourceFile =
       'latest.zip'; //同makeup.zip一致，只用来中间合并再次新的增量包过渡使用
 
-  //*********** 本地存储校验的config.json内部key键使用 **********
-  static const hotfixConfigKeyCurrentValidResource =
-      'currentValidResource'; //当前可用资源的的类型
-  static const hotfixConfigKeyIsFirst = 'isFirst'; //记录是否是第一次加载
-  static const hotfixLastHotfixTime = 'lastHotfixTime'; //记录上一次进行热更新的时间
-
-  //*********** 本地存储networkConfig.json同远端的ios-update-manifest内部的key值 **********
+  //*********** 本地存储nmanifest.json同远端的ios-update-manifest内部的key值 **********
   static const hotfixNetWorkKeyBundleArchiveChecksum =
       'bundleArchiveChecksum'; //整体压缩包的md5key
   static const hotfixNetWorkKeyBundleManifestChecksum =

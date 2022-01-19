@@ -2,13 +2,15 @@
  * @Author: Cao Shixin
  * @Date: 2021-06-25 10:10:12
  * @LastEditors: Cao Shixin
- * @LastEditTime: 2021-06-28 18:20:06
+ * @LastEditTime: 2021-06-29 09:46:53
  * @Description: 
  */
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_hot_fix_csx/helper/log_helper.dart';
+import 'package:flutter_hot_fix_csx/model/manifest_net_model.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class DownloadOp {
@@ -20,6 +22,7 @@ class DownloadOp {
   }
 
   late Dio _dio;
+  late String _manifestUrl;
 
   DownloadOp._internal() {
     _dio = Dio();
@@ -27,6 +30,11 @@ class DownloadOp {
     _dio.options.connectTimeout = 10000;
     //设置数据接收超时时间
     _dio.options.receiveTimeout = 10000;
+  }
+
+  @required
+  set manifestUrl(String url) {
+    _manifestUrl = url;
   }
 
   /* 下载文件保存本地
@@ -58,20 +66,20 @@ class DownloadOp {
   /*
    * 请求远端json文件的内容获取
    */
-  Future<Map<String, dynamic>> getJsonUrlContent(String url) async {
+  Future<ManifestNetModel?> getJsonUrlContent() async {
     Response response;
     try {
-      response = await _dio.get(url);
+      response = await _dio.get(_manifestUrl);
       if (response.statusCode == 200) {
         LogHelper.instance.logInfo('jsonUrl请求成功');
-        return jsonDecode(response.data);
+        return ManifestNetModel.fromJson(jsonDecode(response.data));
       } else {
-        LogHelper.instance.logInfo('json接口:$url出错:$response');
-        return {};
+        LogHelper.instance.logInfo('json接口:$_manifestUrl出错:$response');
+        return null;
       }
     } catch (e) {
       LogHelper.instance.logInfo('json服务器出错或网络连接失败！$e');
-      return {};
+      return null;
     }
   }
 }

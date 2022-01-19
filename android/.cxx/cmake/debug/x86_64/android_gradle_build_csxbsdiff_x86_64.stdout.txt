@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/x86_64'
+[1/2] Building CXX object CMakeFiles/csxbsdiff.dir/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp.o
+[2/2] Linking CXX shared library /Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/example/build/flutter_hot_fix_csx/intermediates/cmake/debug/obj/x86_64/libcsxbsdiff.so

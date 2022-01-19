@@ -1,0 +1,3 @@
+/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/csxbsdiff.dir

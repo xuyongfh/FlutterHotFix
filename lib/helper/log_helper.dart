@@ -2,7 +2,7 @@
  * @Author: Cao Shixin
  * @Date: 2021-06-28 11:29:57
  * @LastEditors: Cao Shixin
- * @LastEditTime: 2021-06-28 17:18:54
+ * @LastEditTime: 2021-06-29 09:40:05
  * @Description: 
  */
 
@@ -19,7 +19,7 @@ class LogHelper {
   LogHelper._internal();
   LogInfoCall? _call;
 
-  set logCall(LogInfoCall call) {
+  set logCall(LogInfoCall? call) {
     _call = call;
   }
 

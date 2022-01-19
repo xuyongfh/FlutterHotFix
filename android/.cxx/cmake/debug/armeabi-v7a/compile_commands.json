@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcsxbsdiff_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/csxbsdiff.dir/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp.o -c /Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp",
+  "file": "/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp"
+}
+]

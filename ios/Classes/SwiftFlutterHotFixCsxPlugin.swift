@@ -9,6 +9,15 @@ public class SwiftFlutterHotFixCsxPlugin: NSObject, FlutterPlugin {
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-    result("iOS " + UIDevice.current.systemVersion)
+    let infoDictionary = NSBundle.mainBundle().infoDictionary
+    switch call.messenger {
+    case "getAppVersion":
+      result(infoDictionary! ["CFBundleShortVersionString"])
+      break
+    case "Bsdiff_bsdiff":
+      
+    default:
+      break
+    }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/CMakeLists.txt",
+    "/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/caoshixin/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/caoshixin/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "csxbsdiff-Debug-arm64-v8a": {
+      "artifactName": "csxbsdiff",
+      "buildCommand": "/Users/caoshixin/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/arm64-v8a\" csxbsdiff",
+      "abi": "arm64-v8a",
+      "output": "/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/example/build/flutter_hot_fix_csx/intermediates/cmake/debug/obj/arm64-v8a/libcsxbsdiff.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+ninja: Entering directory `/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/android/.cxx/cmake/debug/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/bsdiff.dir/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp.o
+FAILED: CMakeFiles/bsdiff.dir/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp.o 
+/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/caoshixin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dbsdiff_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/bsdiff.dir/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp.o -MF CMakeFiles/bsdiff.dir/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp.o.d -o CMakeFiles/bsdiff.dir/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp.o -c /Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp
+/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp:12:12: error: use of undeclared identifier 'Bsdiff_bsdiff'
+    return Bsdiff_bsdiff(argc, argv);
+           ^
+/Users/caoshixin/Desktop/HotFix/flutter_hot_fix_csx/ios/Classes/bsdiff/bsdiff/bsdiff.cpp:16:12: error: use of undeclared identifier 'Bsdiff_bspatch'
+    return Bsdiff_bspatch(argc, argv);
+           ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
